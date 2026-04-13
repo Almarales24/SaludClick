@@ -1,0 +1,5 @@
+flet
+sqlalchemy
+werkzeug
+python-dotenv
+google-genai

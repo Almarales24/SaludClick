@@ -1,0 +1,27 @@
+# Variables de entorno (API keys, contraseñas, etc.)
+.env
+.env.*
+
+# Base de datos local
+*.db
+*.sqlite3
+
+# Cache de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
