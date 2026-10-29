@@ -1,10 +1,10 @@
-# 🩺 Documentación SaludClick
+#  Documentación SaludClick
 
 SaludClick es un sistema integral de agendamiento y gestión de citas médicas desarrollado con **Python**, **Flet** y **SQLite**, integrando Inteligencia Artificial (**Gemini**) para el triaje inicial de pacientes.
 
 ---
 
-## 🚀 Cómo Ejecutar el Proyecto
+##  Cómo Ejecutar el Proyecto
 
 1. Asegúrate de tener instalado Python 3.13.
 2. Instala las dependencias: `pip install -r requirements.txt`
@@ -16,7 +16,7 @@ SaludClick es un sistema integral de agendamiento y gestión de citas médicas d
 
 ---
 
-## 🏗️ Arquitectura del Sistema
+##  Arquitectura del Sistema
 
 El proyecto sigue una estructura modular para facilitar su mantenimiento:
 
@@ -56,15 +56,15 @@ SaludClick - Prueba/
 
 ---
 
-## 👥 Roles de Usuario y Credenciales de Prueba
+##  Roles de Usuario y Credenciales de Prueba
 
-### 👨‍💼 Administrador (Recepción)
+###  Administrador (Recepción)
 Tiene control total sobre las citas y el personal médico.
 - **Correo**: `admin@saludclick.com`
 - **Contraseña**: `recepcion123`
 - **Funciones**: Confirmar/Cancelar citas, añadir o eliminar doctores del sistema.
 
-### 🩺 Médicos (Doctores)
+###  Médicos (Doctores)
 Cada doctor tiene su propio acceso para ver su agenda personalizada.
 - **Doctores disponibles**:
 
@@ -79,13 +79,13 @@ Cada doctor tiene su propio acceso para ver su agenda personalizada.
 - **Contraseña**: `doctor123` (para todos por defecto)
 - **Funciones**: Ver citas asignadas, consultar síntomas analizados por la IA, finalizar consultas.
 
-### 👤 Pacientes
+###  Pacientes
 Usuarios que se registran públicamente a través de la aplicación.
 - **Funciones**: Agendar citas, describir síntomas para análisis por IA, ver historial de citas.
 
 ---
 
-## 🤖 Integración con IA (Gemini)
+##  Integración con IA (Gemini)
 
 El sistema utiliza el modelo `gemini-2.0-flash` para analizar los síntomas descritos por el paciente.
 
@@ -94,7 +94,7 @@ El sistema utiliza el modelo `gemini-2.0-flash` para analizar los síntomas desc
 
 ---
 
-## 🗄️ Modelo de Datos
+##  Modelo de Datos
 
 ### `Usuario`
 | Campo | Tipo | Descripción |
@@ -129,7 +129,7 @@ El sistema utiliza el modelo `gemini-2.0-flash` para analizar los síntomas desc
 
 ---
 
-## 🧪 Pruebas Unitarias
+##  Pruebas Unitarias
 
 Las pruebas se ubican en la carpeta `tests/` y se ejecutan con `pytest`.
 
@@ -149,7 +149,7 @@ Los modelos se prueban con una base de datos SQLite **en memoria** para no modif
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 | Tecnología | Uso |
 |---|---|
